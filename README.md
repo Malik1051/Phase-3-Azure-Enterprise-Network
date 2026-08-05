@@ -22,13 +22,12 @@
 8. [Terraform Dependency Graph](#-terraform-dependency-graph)
 9. [Terraform Workflow](#-terraform-workflow)
 10. [Deployment Process](#-deployment-process)
-11. [Screenshots](#-screenshots)
-12. [Troubleshooting](#-troubleshooting)
-13. [Lessons Learned](#-lessons-learned)
-14. [Future Improvements](#-future-improvements)
-15. [Skills Demonstrated](#-skills-demonstrated)
-16. [License](#-license)
-17. [Author](#-author)
+11. [Troubleshooting](#-troubleshooting)
+12. [Lessons Learned](#-lessons-learned)
+13. [Future Improvements](#-future-improvements)
+14. [Skills Demonstrated](#-skills-demonstrated)
+15. [License](#-license)
+16. [Author](#-author)
 
 ---
 
@@ -87,8 +86,7 @@ Phase-3-Azure-Enterprise-Network/
 ├── providers.tf            # Terraform + AzureRM provider configuration and backend
 ├── variables.tf            # Input variable declarations (region, CIDR ranges, VM size, etc.)
 ├── network.tf               # Resource Group, VNet, and Subnet definitions
-├── security.tf               # NSGs, security rules, and NSG-subnet associations
-├── compute.tf                # Public IP, NIC, and Linux Virtual Machine
+├── security.tf               # NSGs, security rules, and NSG-subnet association              # Public IP, NIC, and Linux Virtual Machine
 ├── outputs.tf                 # Exported values (VNet ID, subnet IDs, public IP, etc.)
 ├── terraform.tfvars           # Environment-specific variable values (gitignored in production)
 ├── .gitignore                  # Excludes state files, .terraform/, and secrets from version control
@@ -98,13 +96,10 @@ Phase-3-Azure-Enterprise-Network/
 ├── docs/
 │   ├── ARCHITECTURE.md           # Azure architecture diagram + narrative
 │   ├── TERRAFORM_DEPENDENCIES.md # Terraform resource dependency diagram
-│   ├── LESSONS_LEARNED.md         # Deep-dive technical retrospective
-│   ├── INTERVIEW_QUESTIONS.md      # Q&A prep tied to this project
-│   ├── BANNER_SPEC.md               # GitHub banner design specification
+│   ├── LESSONS_LEARNED.md         # Deep-dive technical retrospective     # Q&A prep tied to this project              # GitHub banner design specification
 │   └── ARCHITECTURE_IMAGE_SPEC.md    # diagrams.net / Visio recreation spec
 │
-└── images/
-    ├── banner.png                     # Repository banner (Canva/Figma export)
+└── images/                   # Repository banner (Canva/Figma export)
     ├── architecture-diagram.png        # Rendered Azure architecture diagram
     ├── terraform-plan-output.png        # Screenshot: terraform plan
     └── terraform-apply-output.png        # Screenshot: terraform apply
@@ -320,20 +315,10 @@ A full technical retrospective — covering Terraform references, computed attri
 - Technical documentation and enterprise-style project communication
 - Git-based version control workflow
 
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 ## 👤 Author
 
-**[Your Name]**
-Cloud / DevOps Engineer in progress — Azure & Terraform
-📫 [LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username) · [Portfolio](https://your-portfolio-site.com)
+Benjamin Sherif Malik
 
----
 
 <p align="center"><i>Part of an ongoing Azure Infrastructure-as-Code learning series — Phase 3 of N.</i></p>
