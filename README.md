@@ -22,13 +22,12 @@
 8. [Terraform Dependency Graph](#-terraform-dependency-graph)
 9. [Terraform Workflow](#-terraform-workflow)
 10. [Deployment Process](#-deployment-process)
-11. [Screenshots](#-screenshots)
-12. [Troubleshooting](#-troubleshooting)
-13. [Lessons Learned](#-lessons-learned)
-14. [Future Improvements](#-future-improvements)
-15. [Skills Demonstrated](#-skills-demonstrated)
-16. [License](#-license)
-17. [Author](#-author)
+11. [Troubleshooting](#-troubleshooting)
+12. [Lessons Learned](#-lessons-learned)
+13. [Future Improvements](#-future-improvements)
+14. [Skills Demonstrated](#-skills-demonstrated)
+15. [License](#-license)
+16. [Author](#-author)
 
 ---
 
