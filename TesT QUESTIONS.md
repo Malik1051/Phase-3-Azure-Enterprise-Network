@@ -1,4 +1,4 @@
-# Interview Questions — Phase 3: Azure Enterprise Network
+# Test Questions — Phase 3: Azure Enterprise Network
 
 Twenty questions a technical interviewer might ask about this project, with model answers.
 
