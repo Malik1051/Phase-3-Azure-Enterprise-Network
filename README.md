@@ -320,20 +320,10 @@ A full technical retrospective — covering Terraform references, computed attri
 - Technical documentation and enterprise-style project communication
 - Git-based version control workflow
 
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 ## 👤 Author
 
-**[Your Name]**
-Cloud / DevOps Engineer in progress — Azure & Terraform
-📫 [LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username) · [Portfolio](https://your-portfolio-site.com)
+Benjamin Sherif Malik
 
----
 
 <p align="center"><i>Part of an ongoing Azure Infrastructure-as-Code learning series — Phase 3 of N.</i></p>
