@@ -87,8 +87,7 @@ Phase-3-Azure-Enterprise-Network/
 ├── providers.tf            # Terraform + AzureRM provider configuration and backend
 ├── variables.tf            # Input variable declarations (region, CIDR ranges, VM size, etc.)
 ├── network.tf               # Resource Group, VNet, and Subnet definitions
-├── security.tf               # NSGs, security rules, and NSG-subnet associations
-├── compute.tf                # Public IP, NIC, and Linux Virtual Machine
+├── security.tf               # NSGs, security rules, and NSG-subnet association              # Public IP, NIC, and Linux Virtual Machine
 ├── outputs.tf                 # Exported values (VNet ID, subnet IDs, public IP, etc.)
 ├── terraform.tfvars           # Environment-specific variable values (gitignored in production)
 ├── .gitignore                  # Excludes state files, .terraform/, and secrets from version control
@@ -98,13 +97,10 @@ Phase-3-Azure-Enterprise-Network/
 ├── docs/
 │   ├── ARCHITECTURE.md           # Azure architecture diagram + narrative
 │   ├── TERRAFORM_DEPENDENCIES.md # Terraform resource dependency diagram
-│   ├── LESSONS_LEARNED.md         # Deep-dive technical retrospective
-│   ├── INTERVIEW_QUESTIONS.md      # Q&A prep tied to this project
-│   ├── BANNER_SPEC.md               # GitHub banner design specification
+│   ├── LESSONS_LEARNED.md         # Deep-dive technical retrospective     # Q&A prep tied to this project              # GitHub banner design specification
 │   └── ARCHITECTURE_IMAGE_SPEC.md    # diagrams.net / Visio recreation spec
 │
-└── images/
-    ├── banner.png                     # Repository banner (Canva/Figma export)
+└── images/                   # Repository banner (Canva/Figma export)
     ├── architecture-diagram.png        # Rendered Azure architecture diagram
     ├── terraform-plan-output.png        # Screenshot: terraform plan
     └── terraform-apply-output.png        # Screenshot: terraform apply
